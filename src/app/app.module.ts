@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+<<<<<<< HEAD
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
@@ -45,10 +46,25 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     MatButtonModule,
     MatSelectModule
 
+=======
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+>>>>>>> 58679830ff5e8b8927fc9bd161a27ac1aa98e036
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+<<<<<<< HEAD
 export class AppModule {
   
  }
+=======
+export class AppModule { }
+>>>>>>> 58679830ff5e8b8927fc9bd161a27ac1aa98e036

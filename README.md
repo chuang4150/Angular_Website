@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # AngularBootstrapExample
+=======
+# MyApp
+>>>>>>> 58679830ff5e8b8927fc9bd161a27ac1aa98e036
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 

@@ -4,13 +4,21 @@
         "directive-selector": [
             true,
             "attribute",
+<<<<<<< HEAD
             "abe",
+=======
+            "app",
+>>>>>>> 58679830ff5e8b8927fc9bd161a27ac1aa98e036
             "camelCase"
         ],
         "component-selector": [
             true,
             "element",
+<<<<<<< HEAD
             "abe",
+=======
+            "app",
+>>>>>>> 58679830ff5e8b8927fc9bd161a27ac1aa98e036
             "kebab-case"
         ]
     }

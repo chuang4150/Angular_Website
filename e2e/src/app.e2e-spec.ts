@@ -9,6 +9,10 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
+<<<<<<< HEAD
     expect(page.getParagraphText()).toEqual('Welcome to angular-bootstrap-example!');
+=======
+    expect(page.getParagraphText()).toEqual('Welcome to my-app!');
+>>>>>>> 58679830ff5e8b8927fc9bd161a27ac1aa98e036
   });
 });
