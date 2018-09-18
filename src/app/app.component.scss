@@ -1,0 +1,41 @@
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+    outline: none;
+    border: none;
+  }
+
+  .sideBar {
+    background-color: #545454;
+  }
+
+.centered{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 70px;
+  color: pink;
+
+  .strokeme
+{
+    color: black;
+    text-shadow:
+    -1px -1px 0 #ffffff,
+    1px -1px 0 #ffffff,
+    -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;  
+}
+}
+
+.example-sidenav {
+  display: flex;
+  height: 100%;
+  align-items: vertical;
+  justify-content: vertical;
+  padding: 40px;
+}

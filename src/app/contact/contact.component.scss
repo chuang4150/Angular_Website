@@ -1,0 +1,14 @@
+.example-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 4px solid #FF4081;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.border{
+  border: 1px solid black;
+}

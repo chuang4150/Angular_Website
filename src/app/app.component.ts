@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
+
 
 @Component({
   selector: 'abe-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'angular-bootstrap-example';
+  title = 'My Website';
 }
